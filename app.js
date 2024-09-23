@@ -46,6 +46,6 @@ function jogar() {
 }
 
 function limpar() {
-    document.getElementById('pc').src = "img/pc.png"
+    document.getElementById('pc').src = 'img/pc.png'
     document.getElementById('placar').innerHTML = ""
 }
