@@ -75,7 +75,7 @@ input[type="button"], input[type="reset"] {
     border-radius: 5px;
     cursor: pointer;
     margin: 5px;
-    font-weight: ;
+    font-weight:bold;
 }
 
 input[type="button"]:hover, input[type="reset"]:hover {
