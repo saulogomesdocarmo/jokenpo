@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br0">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -23,10 +23,12 @@
             <input type="radio" name="grupo" id="pedra">Pedra
             <input type="radio" name="grupo" id="papel">Papel
             <input type="radio" name="grupo" id="tesoura">Tesoura
-            <p>
-                <input type="button" value=" JOGAR " onclick="jogar()">
-                <input type="reset" value="RESET" onclick="limpar()">
-            </p>
+
+            <div class="container-input">
+                <input type="button" value=" JOGAR " onclick="jogar()" id="jogar">
+                <input type="reset" value="RESET" onclick="limpar()" id="limpar">
+            </div>
+
         </form>
 
         <hr>
